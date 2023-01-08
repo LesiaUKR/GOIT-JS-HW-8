@@ -5,6 +5,6 @@ import SimpleLightbox from "simplelightbox";
 
 console.log(SimpleLightbox);
 
-test = 10; 
+const test = 10; 
 console.log(test);
 
