@@ -4,7 +4,7 @@ import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 // Change code below this line
 
-console.log(SimpleLightbox);
+// console.log(SimpleLightbox);
 
 // const test = 10; 
 // console.log(test);
@@ -14,13 +14,13 @@ console.log(galleryBox);
 const galleryMarkup = createGalleryMarkup(galleryItems);
 // console.log(galleryMarkup);
 
-console.log(SimpleLightbox)
+// console.log(SimpleLightbox)
 
 function createGalleryMarkup(galleryItems) {
     return galleryItems
         .map(({ preview, original, description }) => {
             return `
-<li class="gallery__item>
+<li class="gallery__item">
     <a class="gallery__item" href="${original}">
         <img
            class="gallery__image"
